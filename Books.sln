@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Books.API", "Books.API\Books.API.csproj", "{9956F6C7-0C79-4007-8F90-22D05D289FD9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Books.TEST", "Books.TEST\Books.TEST.csproj", "{8F631AC1-CEB2-4FED-AF43-DA1B4862B423}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9956F6C7-0C79-4007-8F90-22D05D289FD9} = {9956F6C7-0C79-4007-8F90-22D05D289FD9}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
